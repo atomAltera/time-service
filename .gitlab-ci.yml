@@ -1,0 +1,12 @@
+image: "node:10"
+
+before_script:
+  - "npm install"
+
+test:
+  script:
+    - "npm test"
+
+lint:
+  script:
+    - "npm run lint"    
