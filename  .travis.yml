@@ -1,0 +1,14 @@
+language: javascript
+node_js: 
+  - 10
+
+before_script:
+  - "npm install"
+
+test:
+  script:
+    - "npm test"
+
+lint:
+  script:
+    - "npm run lint"      
