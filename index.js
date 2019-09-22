@@ -15,7 +15,7 @@ app.use(
 app.get('/current', (req, res) => {
     const current = new Date();
 
-    const str = formatDate(current, "d of MMMM, YYYY, HH:mm.ss");
+    const str = formatDate(current, "yyyy.MM.dd - HH:mm.ss");
 
     res.json({
         str,
